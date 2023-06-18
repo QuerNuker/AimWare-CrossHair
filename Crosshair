@@ -1,0 +1,28 @@
+local AimWareCrosshair = Instance.new("ScreenGui")
+local ImageLabel = Instance.new("ImageLabel")
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+
+AimWareCrosshair.Name = "Aim Ware Crosshair"
+AimWareCrosshair.Parent = game.Workspace
+
+ImageLabel.Parent = AimWareCrosshair
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.LayoutOrder = 4
+ImageLabel.Position = UDim2.new(0.49059236, 0, 0.468051761, 0)
+ImageLabel.Size = UDim2.new(0.0180722848, 0, 0.0759952292, 0)
+ImageLabel.ZIndex = 10
+ImageLabel.Image = "http://www.roblox.com/asset/?id=12556702900"
+
+UIAspectRatioConstraint.Parent = ImageLabel
+
+local function LEXCUZF_fake_script() -- AimWareCrosshair.AimWare Costume 
+	local script = Instance.new('LocalScript', AimWareCrosshair)
+
+	local Pants = Instance.new("Pants")
+	
+	------------------------------------
+	
+	local Shirt = Instance.new("Shirt")
+end
+coroutine.wrap(LEXCUZF_fake_script)()
